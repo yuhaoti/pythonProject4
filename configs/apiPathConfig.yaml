@@ -1,0 +1,37 @@
+Login:
+  login :
+    path : /account/sLogin
+    method: post
+
+  logout:
+    path : xxx
+    method : get
+
+Shop:
+  query:
+    path: /shopping/myShop
+    method: get
+  file_upload:
+    path: /file
+    method: post
+  update:
+    path: /shopping/updatemyshop
+    method: post
+
+
+
+Food:
+  food:
+    path: /shopping/addmyfood
+    method: post
+
+
+Update:
+  update:
+    path: /shopping/v2/updatemyfood
+    method: post
+
+Del:
+  del_food:
+    path: /shopping/v2/fooddel/48849
+    method: delete
